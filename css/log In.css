@@ -28,7 +28,6 @@
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-
 }
 
 .conection {
@@ -84,8 +83,16 @@
     margin-left: 10px;
 }
 
+.logo-apple img {
+    height: 14px;
+    margin-left: 22px;
+    margin-top: 5px;
+}
+
+
+
 .text-apple h2 {
-    margin-left: 20px;
+    margin-left: 23px;
 }
 
 .text-phone h2 {
@@ -100,7 +107,6 @@
     height: 220px;
     margin-top: 0px;
     align-items: center;
-    
 }
 
 .text-email{
@@ -249,7 +255,6 @@
 
 
 .log-in {
-
         height: 15px;
         margin-left: 20px;
 }
@@ -271,11 +276,7 @@
     color: #1ed760;
 }
 
-
-
-
 .linea {
-    
     border-top: 1px solid rgb(41, 41, 41);
     margin-top: 10px;
 }
@@ -325,5 +326,361 @@
 }
 
 
+@media (max-width: 768px) {
 
+    .part {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contain-login {
+        display: flex;
+        background-color: black;
+        align-items: center;
+        flex-direction: column; /* Cambio aquí */
+        width: 490px;
+        height: 800px;
+        margin-top: 0;
+        margin-bottom: 25px;
+        border-radius: 5px;
+    }
+
+    .text {
+        font-size: 15px;
+        position: relative;
+        color: white;
+        margin-top: 15px;
+    }
+
+    .data-inicio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    .conection {
+        color: white;
+        border-radius: 50px;
+        border: 1px solid var(--essential-subdued,#878787);
+        width: 296px;
+        height: 48px;
+        position: relative;
+        top: 0px;
+        margin-bottom: 7px;
+        display: flex; /* Agregado para utilizar flexbox */
+        align-items: center; 
+        justify-content: center;
+        transition: border-color 0s;
+        
+    }
+
+     /* GOOGLE LOGO MOVILE */
+    .texto-google{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo-google img {
+        height: 20px;
+        margin-left: -20px;
+    }
+    
+    .text-google h2 {
+        font-size: 15px;      
+    }
+
+
+    /* FACEBOOK LOGO MOVILE */
+
+
+    .texto-facebook {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo-facebook{
+        margin-left: 0px;
+        
+    }
+    .logo-facebook img {
+        height: 40px;
+        margin-top: 0px;
+        margin-left: -25px;
+    
+    }
+    .text-facebook h2 {
+        font-size: 15px;
+        margin-left: 0px;
+    }
+
+    /* APPLE LOGO MOVILE */
+
+    .texto-apple {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo-apple{
+        margin-left: 0px;
+        
+    }
+    .logo-apple img {
+        height: 24px;
+        margin-top: 0px;
+        margin-left: -31px;
+    
+    }
+    .text-apple h2 {
+        font-size: 15px;
+        margin-left: 10px;
+        position: relative;
+    }
+
+    /* PHONER LOGO MOVIL */
+
+
+    .texto-phone {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .logo-phone{
+        margin-left: 0px;
+    }
+    .text-phone h2 {
+        font-size: 15px;
+        margin-left: 10px;
+        position: relative;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 73%;
+        height: 300px;
+        margin-top: 0px;
+        align-items: baseline;
+    }
+
+    .text-email{
+        display: flex;
+        justify-content: baseline;
+        margin-right: 0px;
+        margin-bottom: 5px;
+        font-size: 9px;
+        color: white;
+    }
+    
+    .input {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .input-email {
+        border: none;
+        width: 296px;
+        height: 48px;
+        border-radius: 2px;
+        font-size: 15px;
+        font-weight: 400;
+        color: white;
+        background-color: rgb(0, 0, 0, 0.9);
+        box-shadow: inset 0 0 0 1px var(--essential-subdued,#878787);
+        border: 0px solid white;
+        outline: none;
+        padding-inline: 8px;
+    }
+    
+    .input-email:focus {
+        box-shadow: inset 0 0 0 2px white;
+        /* Agrega otros estilos que desees cuando el mouse pasa sobre el input */
+    }
+
+    .text-password{
+        display: flex;
+        justify-content: baseline;
+        margin-right: 0px;
+        margin-bottom: 5px;
+        font-size: 9px;
+        color: white;
+    }
+    
+    .input {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .input-password {
+        border: none;
+        width: 296px;
+        height: 48px;
+        border-radius: 2px;
+        font-size: 15px;
+        font-weight: 400;
+        color: white;
+        background-color: rgb(0, 0, 0, 0.9);
+        box-shadow: inset 0 0 0 1px var(--essential-subdued,#878787);
+        border: 0px solid white;
+        outline: none;
+        padding-inline: 8px;
+    }
+    
+    .input-password:focus {
+        box-shadow: inset 0 0 0 2px white;
+        /* Agrega otros estilos que desees cuando el mouse pasa sobre el input */
+    }
+
+    .boton {
+        position: relative;
+        display: flex;
+        margin: 10px;
+        top: 10px;
+        color: white;
+        align-items: baseline;
+        font-size: 12px;
+        margin-right: 0px;
+        padding-inline: 0px;
+        align-items: center;
+    }
+    
+    .boton h3 {
+        margin-left: 5px;
+        font-weight: 400;
+    }
+    
+    
+    
+    .lbl-switch {
+        display: inline-block;
+        width: 30px;
+        height: 15px;
+        cursor: pointer;
+        background-color: #727272;
+        border-radius: 100px;
+        position: relative
+        
+    }
+    
+    #btn-switch:checked~ .lbl-switch{
+        background-color: #1ed760;
+    }
+    
+    .lbl-switch:after{
+        position: absolute;
+        content: '';
+        width: 12px;
+        height: 12px;
+        background-color: #121212;
+        border-radius: 100px;
+        top: 1.5px;
+        left: 2px;
+        
+    }
+    
+    #btn-switch:checked~ .lbl-switch:after{
+        left: 15px;
+    }
+    
+    #btn-switch {
+        display: none;
+    }
+
+    .login{
+        position: relative;
+        display: flex;
+        color: #000000;
+        border-radius: 50px;
+        border: none;
+        width: 296px;
+        margin-top: 35px;
+        left: 7px;
+        background-color: #1ed760;
+        height: 40px;;
+        font-size: 13px;
+        transition: transform 0s ease;
+    }
+    
+    .login:hover {
+        transform: scale(1.05);
+    }
+    .log-in {
+            height: 15px;
+            margin-left: 30px;
+    }
+
+    .forgot-link {
+        display: flex;
+        position: relative;
+        margin-top: 25px;
+        left: 90px;
+        font-size: 11px;
+        text-decoration: underline; /* Añade un subrayado al enlace */
+        color: white; /* Cambia el color del enlace según tu diseño */
+        cursor: pointer; /* Cambia el cursor al pasar sobre el enlace */
+    }
+    
+    .forgot-link h3 {
+        font-weight: 400;
+    }
+    
+    .forgot-link:hover {
+        color: #1ed760;
+    }
+
+    .linea {
+        display: none;
+        border-top: 1px solid rgb(41, 41, 41);
+        margin-top: 10px;
+    }
+
+    .signup{
+        color: #a7a7a7;
+        font-size: 12px;
+        display: flex;
+        margin-top: 30px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .signup h3 {
+        font-weight: 400;
+    } 
+    
+    .signup a {
+        color: white;
+        font-weight: 400;
+    }
+    
+    .signup a:hover {
+        color: #1ed760;
+        
+    }
+
+    .terms {
+        display: flex;
+        margin-top: 50px;
+        color: #a7a7a7;
+        font-size: 8px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    
+    }
+}
 
