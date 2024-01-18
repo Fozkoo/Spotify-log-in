@@ -27,7 +27,8 @@
             <div class="text">
                 <h1>Log in to Spotify</h1>
             </div>
-    
+        <div class="data-inicio">
+
             <div class="conection" onclick="redirectTo('YOUR_GOOGLE_URL')">
                 <div class="logo-google">
                     <img src="..//images/Google image.png" alt="">
@@ -64,13 +65,18 @@
                 </div>
             </div>
 
+        </div>
+                
+
+            <div class="linea1">-----------------------------------------------------</div>
+
             <div class="form">
                 <div class="text-email">
                     <h2>Email or username</h2>
                 </div>
 
                 <div class="input">
-                    <input type="email" class="input-email">
+                    <input type="email" class="input-email"  placeholder="Email or username">
                 </div>
 
                 <div class="text-password">
@@ -78,11 +84,38 @@
                 </div>
 
                 <div class="input">
-                    <input type="password" class="input-password">
+                    <input type="password" class="input-password" placeholder="Password">
                 </div>
 
+                <div class="boton">
+                    <input type="checkbox" name="" id="btn-switch">
+                    <label for="btn-switch" class="lbl-switch"></label>
+                    <h3>Remember me</h3>
+                </div>
+
+                <div class="login" onclick="redirectTo('YOUR_GOOGLE_URL')">
+                    <div class="logo-in">
+                        <h3>Log in</h3>
+                    </div>
+                </div>
+
+                <div class="forgot">
+                    <a href="#" class="forgot-link">
+                        <h3>Forgot your password?</h3>
+                    </a>
+                </div>
             </div>
+
+            <div class="linea">-----------------------------------------------------</div>
+            
+            <div class="signup">
+                <h3>Don't have an account? <a href="URL_DE_SPOTIFY_REGISTRO">Sign up for Spotify</a></h3>
             </div>
+
+            <div class="terms">
+                <h3>This site is protected by reCAPTCHA and the google <a href="URL_DE_SPOTIFY_REGISTRO">Privacy Policy</a> and <a href="URL_DE_SPOTIFY_REGISTRO">Terms of service</a> apply</h3>
+            </div>
+            
 
 
         </div>
@@ -94,7 +127,6 @@
             window.location.href = url;
         }
     </script>
-
 
 
     
