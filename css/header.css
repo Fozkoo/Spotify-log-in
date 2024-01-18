@@ -1,0 +1,39 @@
+
+.header-contain{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 65px;
+    background-color: black;  
+}
+
+.logo-tittle {
+    display: flex;
+    margin-left: 32px;
+    margin-top: 6px;
+}
+
+.logo-tittle img {
+
+    width: 80px;
+}
+
+@media (max-width: 768px) {
+
+    .header-contain{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 90px;
+        background-color: black;  
+    }
+
+    .logo-tittle {
+        display: flex;
+        margin-left: 32px;
+        margin-top: 36px;
+    }
+
+
+
+}

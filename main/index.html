@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..//css/styles.css">
+    <link rel="stylesheet" href="..//css/header.css">
+    <link rel="stylesheet" href="..//css/log In.css">
+    <title>Spotify</title>
+</head>
+<body>
+
+    <header>
+        <div class="header-contain">
+            <div class="logo-tittle">
+                <a href="URL_DESTINO"> <!-- Reemplaza "URL_DESTINO" con la URL a la que quieres que el enlace lleve -->
+                    <img src="../images/Spotify_Logo_RGB_White.png" alt="Spotify-logo" srcset="">
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="part">
+
+        <div class="contain-login">
+            <div class="text">
+                <h1>Log in to Spotify</h1>
+            </div>
+    
+            <div class="conection" onclick="redirectTo('YOUR_GOOGLE_URL')">
+                <div class="logo-google">
+                    <img src="..//images/Google image.png" alt="">
+                </div>
+    
+                <div class="text-google">
+                    <h2>Continue with Google</h2>
+                </div>
+            </div>
+    
+            <div class="conection" onclick="redirectTo('YOUR_FACEBOOK_URL')">
+                <div class="logo-facebook">
+                    <img src="..//images/facebook-logo-facebook-icon-transparent-free-png.webp" alt="">
+                </div>
+    
+                <div class="text-facebook">
+                    <h2>Continue with Facebook</h2>
+                </div>
+            </div>
+    
+            <div class="conection" onclick="redirectTo('YOUR_APPLE_URL')">
+                <div class="logo-google">
+                    <img src="..//images/applepng.png" alt="">
+                </div>
+    
+                <div class="text-apple">
+                    <h2>Continue with Apple</h2>
+                </div>
+            </div>
+    
+            <div class="conection" onclick="redirectTo('YOUR_PHONE_NUMBER_URL')">
+                <div class="text-phone">
+                    <h2>Continue with phone number</h2>
+                </div>
+            </div>
+
+            <div class="form">
+                <div class="text-email">
+                    <h2>Email or username</h2>
+                </div>
+
+                <div class="input">
+                    <input type="email" class="input-email">
+                </div>
+
+                <div class="text-password">
+                    <h2>Password</h2>
+                </div>
+
+                <div class="input">
+                    <input type="password" class="input-password">
+                </div>
+
+            </div>
+            </div>
+
+
+        </div>
+    
+    </div>
+    
+    <script>
+        function redirectTo(url) {
+            window.location.href = url;
+        }
+    </script>
+
+
+
+    
+
+
+    
+</body>
+</html>
