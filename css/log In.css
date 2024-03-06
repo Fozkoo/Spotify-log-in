@@ -32,6 +32,7 @@
 
 .conection {
     color: white;
+    cursor: pointer;
     border-radius: 50px;
     border: 1px solid var(--essential-subdued,#878787);
     width: 210px;
@@ -139,7 +140,7 @@
 }
 
 .input-email:focus {
-    box-shadow: inset 0 0 0 2px white;
+    box-shadow: inset 0 0 0 1px white;
     /* Agrega otros estilos que desees cuando el mouse pasa sobre el input */
 }
 
@@ -173,7 +174,7 @@
 
 
 .input-password:focus {
-    box-shadow: inset 0 0 0 2px white;
+    box-shadow: inset 0 0 0 1px white;
     /* Agrega otros estilos que desees cuando el mouse pasa sobre el input */
 }
 
@@ -237,6 +238,7 @@
     color: #000000;
     border-radius: 50px;
     border:  none;
+    cursor: pointer;
     width: 200px;
     margin-top: 10px;
     background-color: #1ed760;
